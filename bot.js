@@ -33,7 +33,6 @@ My joke {
   }
 });
 // for other messages
-// For other messages
 bot.on("message", (msg) => {
     if (msg.text.startsWith("/joke")) {
         return;
